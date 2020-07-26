@@ -1,5 +1,106 @@
-h1{
-	font-size: 50px;
-	font-family: Helvatin, San Serif;
-	font-style: bold;
+* {
+  box-sizing: border-box;
 }
+
+h1{
+	font-family: Comic Sans MS;
+	font-style: bold;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.s1{
+	background-color: #b4b4b4;
+  border:2px solid black;
+  font-family: Comic Sans MS;
+  font-size: 20px;
+
+}
+
+#chicken{
+	background-color: #00baff;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  height:30px;
+  width:100px;
+  float: right;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#beef{
+  background-color: #ff13a9;
+  text-align: center;
+
+  margin-bottom: 10px;
+  margin-top: 0px;
+  height:30px;
+  width:100px;
+  color: white;
+  float: right;
+    border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#sushi{
+  background-color: #00ffa9;
+  text-align: center;
+  margin-bottom: 10px;
+  margin-top: 0px;
+  height:30px;
+  width:100px;
+  float: right;
+  border-left: 1px solid black;
+  border-bottom: 1px solid black;
+}
+
+#p1 {
+  width: 100%;
+  font-family: Times Roman;
+  color: black;
+  word-wrap: initial;
+  margin: 0px;
+  font-size: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  margin-top: 36px;
+}
+
+.row {
+  width: 100%;
+}
+
+/**Large device**/
+@media (min-width: 992px) {
+  .col-l-1 {
+    float: left;
+    padding: 10px;
+  }
+  .col-l-1 {
+    width: 33.333%;
+  }
+}
+
+/** Medium devices only **/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-m-1, .col-m-2 {
+    float: left;
+    padding: 10px;
+  }
+  .col-m-1{
+  	width: 50%;
+  }
+  .col-m-2 {
+  	width: 100%
+  }
+}
+
+/** Small devices only **/
+@media (max-width: 767px) {
+  .col-s-1 {
+    float: left;
+    width: 100%;
+    padding: 10px;
+  }
